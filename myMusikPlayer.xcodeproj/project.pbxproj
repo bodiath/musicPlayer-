@@ -12,6 +12,7 @@
 		438247091F9F300300D39889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438247071F9F300300D39889 /* Main.storyboard */; };
 		4382470B1F9F300300D39889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4382470A1F9F300300D39889 /* Assets.xcassets */; };
 		4382470E1F9F300400D39889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4382470C1F9F300400D39889 /* LaunchScreen.storyboard */; };
+		438247161F9F337A00D39889 /* 08 Mouth Of The River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 438247151F9F337A00D39889 /* 08 Mouth Of The River.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4382470A1F9F300300D39889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4382470D1F9F300400D39889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4382470F1F9F300400D39889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438247151F9F337A00D39889 /* 08 Mouth Of The River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Mouth Of The River.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 				438247051F9F300300D39889 /* ViewController.swift */,
 				438247071F9F300300D39889 /* Main.storyboard */,
 				4382470A1F9F300300D39889 /* Assets.xcassets */,
-				4382470C1F9F300400D39889 /* LaunchScreen.storyboard */,
 				4382470F1F9F300400D39889 /* Info.plist */,
+				438247151F9F337A00D39889 /* 08 Mouth Of The River.mp3 */,
+				4382470C1F9F300400D39889 /* LaunchScreen.storyboard */,
 			);
 			path = myMusikPlayer;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				4382470E1F9F300400D39889 /* LaunchScreen.storyboard in Resources */,
 				4382470B1F9F300300D39889 /* Assets.xcassets in Resources */,
+				438247161F9F337A00D39889 /* 08 Mouth Of The River.mp3 in Resources */,
 				438247091F9F300300D39889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36LCQ3K54Z;
 				INFOPLIST_FILE = myMusikPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TH.myMusikPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36LCQ3K54Z;
 				INFOPLIST_FILE = myMusikPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TH.myMusikPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
